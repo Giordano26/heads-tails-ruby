@@ -15,6 +15,8 @@ class Menu
     
         print "Choose an option:"
         user_choice = gets.to_i
+
+        return user_choice
     end
 
     def just_print_menu
@@ -23,6 +25,23 @@ class Menu
             puts "#{index+1}. #{item}"
             end
     end
+
+    def print_initial_menu
+        puts "============== BLINDER HEADS AND TAILS GAME V1.0 =============="
+        puts "Welcome to heads and tails game"
+        puts "Please select an option:"
+    end
+
+
+    def print_about_game
+        puts
+        puts "This is a simple heads or tails game"
+        puts "where you pick your choice and let fate"
+        puts "decides which one will be the winner"
+        puts "developed by blinder inc."
+        puts
+    end
+
 
     
 end
