@@ -42,9 +42,11 @@ class Menu
         puts
     end
 
-
-    
+    def print_choice_menu
+        puts "Pick your side:"
+    end
 end
 
 # while((choice = menu.get_menu_choice) != menu.length_quit)
-# case choice
+# case choice    
+
