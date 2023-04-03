@@ -1,5 +1,5 @@
 class Scoreboard
-    attr_reader :ivalue
+    attr_accessor:ivalue
     def initialize
         @ivalue = 0
     end
