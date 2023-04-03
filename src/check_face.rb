@@ -8,13 +8,13 @@ class CheckFace
         @check_args.each_with_index do |item,index|
             case index
             when 0
-                player_face = item
+                @player_face = item
             when 1 
-                sorted_face = item
+                @sorted_face = item
             end
         end
 
-        if player_face == sorted_face
+        if @player_face == @sorted_face
             result = 1
             return result
         else 
