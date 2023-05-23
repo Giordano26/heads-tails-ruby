@@ -27,7 +27,7 @@ class Menu
     end
 
     def print_initial_menu
-        puts "============== BLINDER HEADS AND TAILS GAME V1.0 =============="
+        puts "============== BLINDER HEADS AND TAILS GAME V1.3 =============="
         puts "Welcome to heads and tails game"
         puts "Please select an option:"
     end
